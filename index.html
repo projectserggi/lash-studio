@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lash Studio · Extensiones de Pestañas Premium</title>
+  <meta name="description"
+    content="Extensiones de pestañas premium en Barcelona. Diseños personalizados para cada mirada. Reserva tu cita ahora y transforma tu look." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ══════════════ NAVBAR ══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">✦</div>
+        <div class="nav-logo-text">Lash<span>Studio</span></div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#servicios"><i class="fa-solid fa-wand-magic-sparkles"></i>Servicios</a></li>
+        <li><a href="#sobre-mi"><i class="fa-solid fa-circle-user"></i>Sobre mí</a></li>
+        <li><a href="#galeria"><i class="fa-solid fa-images"></i>Galería</a></li>
+        <li><a href="#opiniones"><i class="fa-solid fa-star"></i>Opiniones</a></li>
+        <li><a href="#contacto"><i class="fa-solid fa-location-dot"></i>Contacto</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#reservar" class="btn-primary">
+          <i class="fa-solid fa-calendar-check"></i> Reservar cita
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="overlay" id="overlay"></div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#servicios" class="mob-link"><i class="fa-solid fa-wand-magic-sparkles"></i>Servicios</a>
+    <a href="#sobre-mi" class="mob-link"><i class="fa-solid fa-circle-user"></i>Sobre mí</a>
+    <a href="#galeria" class="mob-link"><i class="fa-solid fa-images"></i>Galería</a>
+    <a href="#opiniones" class="mob-link"><i class="fa-solid fa-star"></i>Opiniones</a>
+    <a href="#contacto" class="mob-link"><i class="fa-solid fa-location-dot"></i>Contacto</a>
+    <a href="#reservar" class="btn-primary mob-cta"><i class="fa-solid fa-calendar-check"></i>Reservar cita</a>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <img src="hero.png" alt="Extensiones de pestañas" class="hero-bg-img" />
+      <div class="hero-gradient"></div>
+      <div class="hero-blob hero-blob-1"></div>
+      <div class="hero-blob hero-blob-2"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          FREELANCE · EXTENSIONES PREMIUM
+        </div>
+
+        <h1 class="hero-title">
+          Tu mirada,<br />
+          <em>redefinida.</em>
+        </h1>
+
+        <p class="hero-desc">
+          Extensiones de pestañas diseñadas a medida para realzar tu belleza única.
+          Resultados naturales o dramáticos, siempre con materiales de primera calidad.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#reservar" class="btn-primary">
+            <i class="fa-solid fa-calendar-check"></i> Reservar ahora
+          </a>
+          <a href="#galeria" class="btn-ghost">
+            <i class="fa-solid fa-eye"></i> Ver galería
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">+<span>500</span></div>
+            <div class="stat-label">Clientas felices</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number"><span>5</span></div>
+            <div class="stat-label">Años de experiencia</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number"><span>98</span>%</div>
+            <div class="stat-label">Satisfacción</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-photo-frame">
+          <img src="hero.png" alt="Extensiones de pestañas de cerca" />
+
+          <div class="photo-badge photo-badge-1">
+            <i class="fa-solid fa-award"></i>
+            <div class="photo-badge-text">
+              <strong>Certificada</strong>
+              <span>Técnica profesional</span>
+            </div>
+          </div>
+          <div class="photo-badge photo-badge-2">
+            <i class="fa-regular fa-clock"></i>
+            <div class="photo-badge-text">
+              <strong>Duración 3–4 sem.</strong>
+              <span>Mantenimiento fácil</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SERVICES ══════════════ -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="services-header reveal">
+        <div class="section-tag"><i class="fa-solid fa-sparkles"></i> Servicios</div>
+        <h2 class="section-title">¿Qué tipo de mirada <em>deseas?</em></h2>
+        <p class="section-sub">Cada servicio está diseñado pensando en ti. Elige el que se ajuste a tu estilo de vida y
+          personalidad.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-badge">Más pedido</span>
+          <div class="service-icon"><i class="fa-solid fa-feather-pointed"></i></div>
+          <h3 class="service-name">Look Natural</h3>
+          <p class="service-desc">Pestañas una a una para un efecto sutil y natural. Ideales para el día a día y el
+            trabajo.</p>
+          <div class="service-price">45€ <small>/ sesión completa</small></div>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3 class="service-name">Efecto Ruso</h3>
+          <p class="service-desc">Abanicos de 3–6 pestañas por pelo natural. Volumen y fullness espectacular de larga
+            duración.</p>
+          <div class="service-price">65€ <small>/ sesión completa</small></div>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon"><i class="fa-solid fa-crown"></i></div>
+          <h3 class="service-name">Mega Volumen</h3>
+          <p class="service-desc">Para las que quieren la máxima intensidad. Abanicos ultra-densos de efecto dramático y
+            glamuroso.</p>
+          <div class="service-price">80€ <small>/ sesión completa</small></div>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon"><i class="fa-solid fa-rotate"></i></div>
+          <h3 class="service-name">Relleno</h3>
+          <p class="service-desc">Mantenimiento de tu extensión cada 2–3 semanas. Mantén tu look perfecto a un precio
+            reducido.</p>
+          <div class="service-price">30€ <small>/ desde</small></div>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+          <h3 class="service-name">Color & Diseño</h3>
+          <p class="service-desc">Añade detalles de color o diseños especiales como cat-eye, fox-eye o efecto húmedo.
+          </p>
+          <div class="service-price">55€ <small>/ sesión</small></div>
+        </div>
+
+        <div class="service-card reveal reveal-delay-4">
+          <div class="service-icon"><i class="fa-solid fa-spa"></i></div>
+          <h3 class="service-name">Baño de keratina</h3>
+          <p class="service-desc">Tratamiento nutritivo para pestañas naturales. Ondulación y rizo duradero sin
+            extensiones.</p>
+          <div class="service-price">38€ <small>/ sesión</small></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section class="about" id="sobre-mi">
+    <div class="container about-inner">
+
+      <div class="about-image-wrap reveal">
+        <div class="about-img-grid">
+          <img src="hero.png" alt="Trabajo de pestañas" />
+          <img src="hero.png" alt="Detalle de extensiones" />
+          <img src="hero.png" alt="Resultado final" />
+        </div>
+      </div>
+
+      <div class="about-content reveal reveal-delay-1">
+        <div class="section-tag"><i class="fa-solid fa-user-heart"></i> Sobre mí</div>
+        <h2 class="section-title">Hola, soy <em>Nathalia</em></h2>
+        <p class="section-sub" style="margin-bottom:8px">
+          Técnica certificada en extensiones de pestañas con más de 5 años de experiencia.
+          Mi misión es hacer que cada clienta salga sintiéndose la mejor versión de sí misma.
+        </p>
+
+        <ul class="about-list">
+          <li>
+            <i class="fa-solid fa-certificate"></i>
+            <div>
+              <strong>Certificaciones internacionales</strong>
+              <span>Formación continua en las últimas técnicas europeas y coreanas</span>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-leaf"></i>
+            <div>
+              <strong>Materiales hipoalergénicos</strong>
+              <span>Solo trabajo con adhesivos y fibras de grado profesional certificadas</span>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-shield-halved"></i>
+            <div>
+              <strong>Ambiente limpio y seguro</strong>
+              <span>Protocolos de higiene estrictos en cada sesión</span>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-heart"></i>
+            <div>
+              <strong>Atención personalizada</strong>
+              <span>Estudio de tu morfología ocular para el diseño perfecto</span>
+            </div>
+          </li>
+        </ul>
+
+        <a href="#reservar" class="btn-primary">
+          <i class="fa-solid fa-calendar-check"></i> Pide tu cita
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ PROCESS ══════════════ -->
+  <section class="process">
+    <div class="container">
+      <div class="process-header reveal">
+        <div class="section-tag"><i class="fa-solid fa-route"></i> Proceso</div>
+        <h2 class="section-title">Así funciona tu <em>cita</em></h2>
+        <p class="section-sub" style="margin:0 auto">Desde la reserva hasta salir con tu look perfecto, en 4 sencillos
+          pasos.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step reveal reveal-delay-1">
+          <div class="step-number">01</div>
+          <h3 class="step-title">Reserva online</h3>
+          <p class="step-desc">Elige tu servicio y horario desde WhatsApp o Instagram</p>
+        </div>
+        <div class="step reveal reveal-delay-2">
+          <div class="step-number">02</div>
+          <h3 class="step-title">Consulta previa</h3>
+          <p class="step-desc">Hablamos de tu estilo, morfología y expectativas</p>
+        </div>
+        <div class="step reveal reveal-delay-3">
+          <div class="step-number">03</div>
+          <h3 class="step-title">Aplicación</h3>
+          <p class="step-desc">Relajación total mientras transformamos tu mirada</p>
+        </div>
+        <div class="step reveal reveal-delay-4">
+          <div class="step-number">04</div>
+          <h3 class="step-title">¡Disfruta!</h3>
+          <p class="step-desc">Sal con tu look y recibe tips de cuidado personalizados</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ GALLERY ══════════════ -->
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <div class="gallery-header reveal">
+        <div class="section-tag"><i class="fa-solid fa-images"></i> Galería</div>
+        <h2 class="section-title">Trabajos <em>reales</em></h2>
+        <p class="section-sub" style="margin:0 auto">Cada imagen cuenta una historia de transformación. Tú serás la
+          siguiente.</p>
+      </div>
+
+      <div class="gallery-grid reveal reveal-delay-1">
+        <div class="gallery-item">
+          <img src="hero.png" alt="Look natural pestañas" />
+          <div class="gallery-overlay"><span>Look Natural</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="hero.png" alt="Volumen ruso pestañas" />
+          <div class="gallery-overlay"><span>Efecto Ruso</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="hero.png" alt="Mega volumen pestañas" />
+          <div class="gallery-overlay"><span>Mega Volumen</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="hero.png" alt="Cat eye pestañas" />
+          <div class="gallery-overlay"><span>Cat Eye</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="hero.png" alt="Fox eye pestañas" />
+          <div class="gallery-overlay"><span>Fox Eye</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ TESTIMONIALS ══════════════ -->
+  <section class="testimonials" id="opiniones">
+    <div class="container">
+      <div class="testimonials-header reveal">
+        <div class="section-tag"><i class="fa-solid fa-star"></i> Opiniones</div>
+        <h2 class="section-title">Lo que dicen mis <em>clientas</em></h2>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Llevo 2 años siendo clienta y nunca he quedado decepcionada. Nathalia es una artista,
+            siempre adapta el diseño a lo que te queda mejor sin que tengas que pedirlo."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">L</div>
+            <div>
+              <div class="author-name">Laura M.</div>
+              <div class="author-loc"><i class="fa-solid fa-location-dot" style="font-size:0.7rem;"></i>Barcelona</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "El mejor dinero que he gastado en mucho tiempo. Me hizo el efecto ruso y duré
+            casi 4 semanas sin necesitar relleno. La higiene y atención son impecables."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <div class="author-name">Andrea R.</div>
+              <div class="author-loc"><i class="fa-solid fa-location-dot" style="font-size:0.7rem;"></i> Alcobendas
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-3">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Tenía miedo por tener los ojos sensibles pero usó materiales hipoalergénicos
+            y no tuve ninguna reacción. ¡El resultado es precioso y duradero! 100% recomendable."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">P</div>
+            <div>
+              <div class="author-name">Patricia G.</div>
+              <div class="author-loc"><i class="fa-solid fa-location-dot" style="font-size:0.7rem;"></i> Majadahonda
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ BOOKING CTA ══════════════ -->
+  <section class="booking" id="reservar">
+    <div class="container">
+      <div class="booking-inner reveal">
+        <div class="section-tag" style="margin:0 auto 20px;"><i class="fa-solid fa-calendar-check"></i> Reservas</div>
+        <h2 class="section-title">¿Lista para tu <em>transformación?</em></h2>
+        <p class="section-sub">Reserva tu cita hoy. Plazas limitadas cada semana, asegura el tuyo antes de que se llene.
+        </p>
+
+        <div class="booking-actions">
+          <a href="https://wa.me/34641688894?text=Hola%20Nathalia%2C%20quiero%20reservar%20una%20cita" target="_blank"
+            class="btn-primary">
+            <i class="fa-brands fa-whatsapp"></i> Reservar por WhatsApp
+          </a>
+          <a href="https://instagram.com" target="_blank" class="btn-ghost">
+            <i class="fa-brands fa-instagram"></i> Escribir por Instagram
+          </a>
+        </div>
+
+        <div class="booking-info" id="contacto">
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Barcelona — Consultar dirección exacta al reservar</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-regular fa-clock"></i>
+            <span>Lun – Sáb · 9:00 – 20:00</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+34 641 688 894</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <div class="nav-logo-icon">✦</div>
+            <div class="nav-logo-text">Lash<span>Studio</span></div>
+          </a>
+          <p>Extensiones de pestañas premium con amor y dedicación. Cada mirada es única y merece lo mejor.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="social-link" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem"></i>Look Natural</a>
+            </li>
+            <li><a href="#servicios"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem"></i>Efecto Ruso</a>
+            </li>
+            <li><a href="#servicios"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem"></i>Mega Volumen</a>
+            </li>
+            <li><a href="#servicios"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem"></i>Relleno</a></li>
+            <li><a href="#servicios"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem"></i>Keratina</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Información</h4>
+          <ul>
+            <li><a href="#sobre-mi"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem"></i>Sobre mí</a></li>
+            <li><a href="#galeria"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem"></i>Galería</a></li>
+            <li><a href="#opiniones"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem"></i>Opiniones</a>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right" style="font-size:0.6rem"></i>Cuidados post</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="tel:+34641688894"><i class="fa-solid fa-phone" style="font-size:0.7rem"></i>+34 641 688 894</a>
+            </li>
+            <li><a href="mailto:hola@lashstudio.es"><i class="fa-solid fa-envelope"
+                  style="font-size:0.7rem"></i>hola@lashstudio.es</a></li>
+            <li><a href="#contacto"><i class="fa-solid fa-map-pin" style="font-size:0.7rem"></i>Barcelona, España</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 <span>LashStudio</span> · Todos los derechos reservados</p>
+        <p>Hecho con <span>♥</span> por Nathalia</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
